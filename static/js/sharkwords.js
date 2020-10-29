@@ -28,6 +28,9 @@ const createDivsForChars = (word) => {
 //
 const generateLetterButtons = () => {
   // Replace this with your code
+  for (const char of ALPHABET){
+    $('#letter-buttons').append(`<button>${char}</button>`);
+  }
 };
 
 // Set the `disabled` property of `buttonEl` to `true.
